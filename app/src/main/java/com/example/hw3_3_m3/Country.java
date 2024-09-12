@@ -20,11 +20,11 @@ public class Country {
         this.name = name;
     }
 
-    public String getLogo() {
+    public String getFlag() {
         return flag;
     }
 
-    public void setLogo(String logo) {
+    public void setFlag(String logo) {
         this.flag = flag;
     }
 

@@ -18,6 +18,6 @@ public class CoutryViewHolder extends RecyclerView.ViewHolder {
     public void bind(Country car) {
         binding.tvTitle.setText(car.getName());
         binding.tvDesc.setText(car.getDesc());
-        Glide.with(binding.imgFlag).load(car.getLogo()).into(binding.imgFlag);
+        Glide.with(binding.imgFlag).load(car.getFlag()).into(binding.imgFlag);
     }
 }

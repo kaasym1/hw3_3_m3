@@ -13,8 +13,8 @@ public class CountryAdapter extends RecyclerView.Adapter<CoutryViewHolder> {
 
     private ArrayList<Country> country;
 
-    public CountryAdapter(ArrayList<Country> cars) {
-        this.country = country;
+    public CountryAdapter(ArrayList<Country> countries) {
+        this.country = countries;
     }
 
     @NonNull
